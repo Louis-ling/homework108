@@ -13,6 +13,7 @@ function scoring()
     ex4() //判断题
     ex5() //简答题
     document.getElementById("scores").innerHTML = "得分："+TP.toString();
+    document.getElementsByName("TP").value = TP.toString();
 }
 
 function ex1()

@@ -12,8 +12,7 @@ function scoring()
     ex3() //多择题
     ex4() //判断题
     ex5() //简答题
-    document.getElementById("scores").innerHTML = "得分："+TP.toString();
-    document.getElementsByName("TP").value = TP.toString();
+    document.getElementById("TP").innerHTML = "得分："+TP.toString();
 }
 
 function ex1()
